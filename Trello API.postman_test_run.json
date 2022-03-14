@@ -1,0 +1,111 @@
+{
+	"id": "d86a7a83-dd86-4868-8ad1-87261b4e21f2",
+	"name": "Trello API",
+	"timestamp": "2022-03-14T18:33:54.781Z",
+	"collection_id": "19955331-2ae923f2-03ea-4284-b67c-b5846a0183f7",
+	"folder_id": 0,
+	"environment_id": "19955331-b8445880-5b34-4d81-b1b5-19a92ae12367",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5cf3ef1e-874e-424b-96ce-163a3b0404cc",
+			"name": "Create Board",
+			"url": "https://api.trello.com/1/boards/?name=Board%20for%20deleting%203&key=b43158edf32ba7c9b27c59f27249b135&token=ccc0ae5955b8caa6819df069ca49512ac9e678610ad2edb7e0baafd2b69ca1ea",
+			"time": 440,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				440
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "70370d7b-8019-4fff-bcf4-e74dbc820fda",
+			"name": "Board",
+			"url": "https://api.trello.com/1/boards/622f8a9746376d200c745d7b?token=ccc0ae5955b8caa6819df069ca49512ac9e678610ad2edb7e0baafd2b69ca1ea&key=b43158edf32ba7c9b27c59f27249b135",
+			"time": 337,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				337
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e21a2e64-be2c-4b4a-a56e-69dbfe024046",
+			"name": "Delete board",
+			"url": "https://api.trello.com/1/boards/622f8a9746376d200c745d7b?key=b43158edf32ba7c9b27c59f27249b135&token=ccc0ae5955b8caa6819df069ca49512ac9e678610ad2edb7e0baafd2b69ca1ea",
+			"time": 625,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				625
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1402,
+	"collection": {
+		"requests": [
+			{
+				"id": "5cf3ef1e-874e-424b-96ce-163a3b0404cc",
+				"method": "POST"
+			},
+			{
+				"id": "70370d7b-8019-4fff-bcf4-e74dbc820fda",
+				"method": "GET"
+			},
+			{
+				"id": "e21a2e64-be2c-4b4a-a56e-69dbfe024046",
+				"method": "DELETE"
+			}
+		]
+	}
+}
