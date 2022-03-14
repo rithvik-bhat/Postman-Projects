@@ -1,0 +1,222 @@
+{
+	"id": "bd4bc451-ced7-4c99-8ede-b133568eaa8f",
+	"name": "E-commerce: Product",
+	"timestamp": "2022-03-14T17:59:26.513Z",
+	"collection_id": "19955331-1bf158ef-f086-4474-adbf-8ce83bacb5a8",
+	"folder_id": 0,
+	"environment_id": "19955331-b8445880-5b34-4d81-b1b5-19a92ae12367",
+	"totalPass": 30,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "29cb3527-6947-4435-a25d-1be42b109421",
+			"name": "Get all products",
+			"time": 1925,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				2491,
+				1966,
+				1987,
+				1953,
+				1925
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ff6144c0-e54a-4829-a87e-4138b6bfe3f2",
+			"name": "Create product",
+			"time": 690,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check Name undefined": true,
+				"Check Price undefined": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Check Name undefined": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Check Price undefined": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				693,
+				663,
+				696,
+				663,
+				690
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check Name undefined": true,
+					"Check Price undefined": true
+				},
+				{
+					"Status code is 200": true,
+					"Check Name undefined": true,
+					"Check Price undefined": true
+				},
+				{
+					"Status code is 200": true,
+					"Check Name undefined": true,
+					"Check Price undefined": true
+				},
+				{
+					"Status code is 200": true,
+					"Check Name undefined": true,
+					"Check Price undefined": true
+				},
+				{
+					"Status code is 200": true,
+					"Check Name undefined": true,
+					"Check Price undefined": true
+				}
+			]
+		},
+		{
+			"id": "e3ebd7ec-2af0-4880-9418-a91c08985eb6",
+			"name": "Get product by id",
+			"time": 695,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				660,
+				666,
+				659,
+				661,
+				695
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ce76c586-5a05-4e8f-920a-d5c9292cef16",
+			"name": "Delete product by id",
+			"time": 661,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				663,
+				661,
+				658,
+				692,
+				661
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 20403,
+	"collection": {
+		"requests": [
+			{
+				"id": "29cb3527-6947-4435-a25d-1be42b109421",
+				"method": "GET"
+			},
+			{
+				"id": "ff6144c0-e54a-4829-a87e-4138b6bfe3f2",
+				"method": "POST"
+			},
+			{
+				"id": "e3ebd7ec-2af0-4880-9418-a91c08985eb6",
+				"method": "GET"
+			},
+			{
+				"id": "ce76c586-5a05-4e8f-920a-d5c9292cef16",
+				"method": "DELETE"
+			}
+		]
+	}
+}
